@@ -276,4 +276,8 @@ html body .container #contact-us .links .fa-instagram {
 html body .container #contact-us .links .fa-twitter {
   background: #55acee;
   color: white;
+}
+html body .container #contact-us .links .fa-whatsapp {
+  background-color: #2fff63;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
