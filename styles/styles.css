@@ -198,18 +198,82 @@ html body .container #services .cards .card .pics img {
   -o-object-position: center;
      object-position: center;
 }
-html body .container #contact-us .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+html body .container #contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+html body .container #contact-us form {
+  width: 450px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+html body .container #contact-us form .input {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1vh;
+}
+html body .container #contact-us form .input label {
+  font-size: 0.6rem;
+}
+html body .container #contact-us form .input input,
+html body .container #contact-us form .input textarea {
+  border-radius: 5px;
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+  font-size: 0.7rem;
+  padding: 2%;
+  resize: none;
+}
+html body .container #contact-us form .input input:focus,
+html body .container #contact-us form .input textarea:focus {
+  border: 1px solid #55acee;
+  outline: none;
+}
+html body .container #contact-us form .message {
+  height: 20vh;
+}
+html body .container #contact-us form button {
+  height: 7vh;
+  width: 100%;
+  background-color: #3b5998;
+  border: none;
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+html body .container #contact-us .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+html body .container #contact-us .links .fa {
+  width: 4vw;
+  padding: 4% 0;
   text-align: center;
   text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 5px;
 }
-html body .container #contact-us .fa-facebook {
+html body .container #contact-us .links .fa-facebook {
   background: #3b5998;
   color: white;
 }
-html body .container #contact-us .fa-twitter {
+html body .container #contact-us .links .fa-twitter {
   background: #55acee;
   color: white;
 }/*# sourceMappingURL=styles.css.map */
